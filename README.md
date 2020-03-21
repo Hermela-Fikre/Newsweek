@@ -1,0 +1,2 @@
+# Newsweek
+Clone of newsweek
