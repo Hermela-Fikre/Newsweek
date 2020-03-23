@@ -1,4 +1,108 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+
+.r-txt {
+  color: #f72210;
+}
+
+.r-txt:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.w-txt {
+  background-color: #f72210;
+  color: white;
+}
+
+.w-txt:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  color: black;
+}
+
+.link--red:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.link--underline:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.link--black:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.header__top {
+  line-height: 26px;
+  height: 53px;
+  color: white;
+}
+
+.logo {
+  object-fit: cover;
+}
+
+.logo--small {
+  width: 132px;
+  height: 20px;
+}
+
+.logo--big {
+  display: none;
+}
+
+.header__weather {
+  font-size: 15px;
+}
+
+.header__weather:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.header__weather img {
+  width: 24px;
+}
+
+.header__right a {
+  font-size: 14px;
+}
+
+.subscribe {
+  background-color: white;
+}
+
+.subscribe span {
+  display: none;
+}
+
+.fa-bars {
+  color: #fb9a94;
+}
+
+.fa-bars:hover {
+  color: #fb9a94;
+}
+
+.header__nav {
+  display: none;
+}
+
+.section__header--1 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
 }
