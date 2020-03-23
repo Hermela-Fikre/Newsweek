@@ -372,8 +372,7 @@ body {
   font-size: 20px;
   bottom: 0;
   left: 0;
-  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png")
-    0 0 no-repeat;
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0 no-repeat;
   background-size: contain;
 }
 
@@ -417,8 +416,7 @@ body {
 
 .newsletter__image {
   height: 160px;
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
-    center center no-repeat;
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90& f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center no-repeat;
   background-size: cover;
 }
 
@@ -580,7 +578,6 @@ body {
     width: auto;
     position: relative;
     font-size: 19px;
-    padding: 0px 0;
   }
 
   .header__nav__bg {
@@ -615,11 +612,9 @@ body {
   .search-box {
     width: 63px;
     height: 30px;
-    margin: 0px -15px -15px 0;
+    margin: -15px -15px;
     color: rgba(0, 0, 0, 0.55);
     font-size: 16px;
-    padding: 0;
-    border: 0;
     outline: none;
     position: absolute;
     right: 60px;
