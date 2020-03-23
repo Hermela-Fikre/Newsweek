@@ -77,6 +77,10 @@ body {
   font-size: 14px;
 }
 
+.header1 {
+  width: 100%;
+}
+
 .subscribe {
   background-color: white;
 }
@@ -93,9 +97,9 @@ body {
   color: #fb9a94;
 }
 
-.header__nav {
+/* .header__nav {
   display: none;
-}
+} */
 
 .section__header--1 {
   color: rgba(3, 3, 3, 0.4);
@@ -482,10 +486,6 @@ body {
   color: #0077b5;
 }
 
-/**************************************************************************
-  ************                FIRST BREAK            *************
-  **************************************************************************/
-
 @media screen and (min-width: 481px) {
   .header__right a {
     padding: 0 10px;
@@ -498,10 +498,6 @@ body {
     font-weight: 300;
   }
 }
-
-/**************************************************************************
-  ************                SECOND BREAK            *************
-  **************************************************************************/
 
 @media screen and (min-width: 576px) {
   .magazine__article--focus img {
@@ -528,10 +524,6 @@ body {
   }
 }
 
-/**************************************************************************
-  ************                THIRD BREAK            *************
-  **************************************************************************/
-
 @media screen and (min-width: 768px) {
   .culture-travel__article {
     width: 28%;
@@ -541,10 +533,6 @@ body {
     width: 33%;
   }
 }
-
-/**************************************************************************
-  ************                FOURTH BREAK            *************
-  **************************************************************************/
 
 @media screen and (min-width: 992px) {
   .container-fluid {
@@ -592,7 +580,7 @@ body {
     width: auto;
     position: relative;
     font-size: 19px;
-    padding: 15px 0;
+    padding: 0px 0;
   }
 
   .header__nav__bg {
@@ -621,20 +609,20 @@ body {
     width: 20px;
     height: 20px;
     position: absolute;
-    right: 78px;
+    right: 30px;
   }
 
   .search-box {
     width: 63px;
-    height: 54px;
-    margin: -15px -15px -15px 0;
+    height: 30px;
+    margin: 0px -15px -15px 0;
     color: rgba(0, 0, 0, 0.55);
     font-size: 16px;
     padding: 0;
     border: 0;
     outline: none;
     position: absolute;
-    right: 105px;
+    right: 60px;
     transition: all 0.3s ease;
   }
 
@@ -651,5 +639,11 @@ body {
   .news-section > .col-lg-5 {
     flex: 0 0 29%;
     max-width: 29%;
+  }
+}
+
+@media (max-width: 992px) {
+  .header1 {
+    display: none;
   }
 }
