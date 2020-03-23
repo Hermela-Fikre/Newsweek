@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 }
@@ -485,4 +480,176 @@ body {
 
 .fa-linkedin-in:hover {
   color: #0077b5;
+}
+
+/**************************************************************************
+  ************                FIRST BREAK            *************
+  **************************************************************************/
+
+@media screen and (min-width: 481px) {
+  .header__right a {
+    padding: 0 10px;
+    font-size: 18px;
+  }
+
+  .subscribe span {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 300;
+  }
+}
+
+/**************************************************************************
+  ************                SECOND BREAK            *************
+  **************************************************************************/
+
+@media screen and (min-width: 576px) {
+  .magazine__article--focus img {
+    height: 23.3vw !important;
+  }
+
+  .row--second .magazine__article img,
+  .row--first .magazine__article:not(:first-child) img {
+    height: 22vw;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  .row--second {
+    margin-top: 20px;
+  }
+
+  .newsletter__image {
+    height: 100%;
+  }
+
+  .newsletter__info {
+    padding: 30px 30px 30px 15px;
+  }
+}
+
+/**************************************************************************
+  ************                THIRD BREAK            *************
+  **************************************************************************/
+
+@media screen and (min-width: 768px) {
+  .culture-travel__article {
+    width: 28%;
+  }
+
+  .culture-travel__article--large {
+    width: 33%;
+  }
+}
+
+/**************************************************************************
+  ************                FOURTH BREAK            *************
+  **************************************************************************/
+
+@media screen and (min-width: 992px) {
+  .container-fluid {
+    max-width: 1310px;
+    padding: 0 30px;
+  }
+
+  .header__top {
+    height: 90px;
+  }
+
+  .logo--small {
+    display: none;
+  }
+
+  .header__left {
+    padding-left: 15px;
+    margin-left: 10px;
+  }
+
+  .header__weather {
+    margin-left: 0;
+  }
+
+  .header__center {
+    left: calc(50vw - 198px);
+  }
+
+  .header__right {
+    align-self: flex-end;
+  }
+
+  .logo--big {
+    display: inline-block;
+    width: 396px;
+    height: 60px;
+  }
+
+  .header__right__menu {
+    display: none !important;
+  }
+
+  .header__nav {
+    display: block;
+    width: auto;
+    position: relative;
+    font-size: 19px;
+    padding: 15px 0;
+  }
+
+  .header__nav__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 78px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+
+  .header__nav a {
+    display: inline-block;
+    padding: 0 calc((100% - 912px) / 24);
+    border-left: 1px solid lightgray;
+  }
+
+  .header__nav form {
+    display: inline;
+  }
+
+  .search label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 78px;
+  }
+
+  .search-box {
+    width: 63px;
+    height: 54px;
+    margin: -15px -15px -15px 0;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 16px;
+    padding: 0;
+    border: 0;
+    outline: none;
+    position: absolute;
+    right: 105px;
+    transition: all 0.3s ease;
+  }
+
+  .search-box:focus {
+    width: calc(100% - 105px);
+    transition: all 0.3s ease;
+  }
+
+  .news-section > .col-lg-7 {
+    flex: 0 0 71%;
+    max-width: 71%;
+  }
+
+  .news-section > .col-lg-5 {
+    flex: 0 0 29%;
+    max-width: 29%;
+  }
 }
