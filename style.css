@@ -79,6 +79,12 @@ body {
 
 .header1 {
   width: 100%;
+  cursor: pointer;
+  background: red;
+}
+
+.header2  {
+  cursor: pointer;
 }
 
 .subscribe {
@@ -96,10 +102,6 @@ body {
 .fa-bars:hover {
   color: #fb9a94;
 }
-
-/* .header__nav {
-  display: none;
-} */
 
 .section__header--1 {
   color: rgba(3, 3, 3, 0.4);
